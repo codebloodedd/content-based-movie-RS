@@ -31,7 +31,7 @@ def recommend(movie):
 
     return recommended_movie_names,recommended_movie_posters
 
-st.title('Movie Recommender')
+st.title('CinéSuggest')
 
 selected_movie = st.selectbox(
     "Type or select a movie from the dropdown",
